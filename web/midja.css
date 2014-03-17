@@ -1,0 +1,39 @@
+.featureback     {
+  margin-top:45px; 
+  background-color: #993300;  
+  color: #fff;
+  padding:15px;
+  margin-bottom:0;
+}
+@media (min-width: 390px) {
+  .featureback {
+    background-image:url(images/feature-right.gif); 
+    background-repeat:no-repeat; 
+    background-position:right;
+    background-size:contain;
+  }
+}
+.featureback h1 {
+  font-size: 300%;
+}
+.feature-quote {
+  font-size:150%;
+}
+.divider {
+  border-bottom: 20px solid #000033;
+  border-top: 1px solid #000033;
+  margin:top:0;
+  padding-top:0;
+  margin-bottom:20px;
+}
+p, li {
+  text-align:justify;
+  font-size: 115%;
+}
+.houselogo {
+  margin-top:12px;
+  padding-right:10px;
+}
+.carousel {
+  margin-bottom:1em;
+}
