@@ -2,3 +2,4 @@
 .settings
 .project
 /target
+web-app/node_modules
