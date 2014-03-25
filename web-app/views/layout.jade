@@ -1,7 +1,29 @@
-doctype 5
+doctype html
 html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/components/bootstrap/dist/css/bootstrap.min.css')
+    block stylesheets
+    
   body
-    block content
+    .navbar.navbar-fixed-top.navbar-inverse
+            .container
+                .nav-collapse
+                ul.nav.navbar-nav
+                    li.active
+                        a(href="/") Home
+
+    .container
+        h1= title
+        block content
+
+        block footer
+            footer.page-footer
+                p Midja is supported under the Australian Research Council's Discovery Indigenous Projects funding scheme (IN140100033) 2014 - 2016
+
+
+    script(src='/components/jquery/dist/jquery.min.js')
+    script(src='/components/bootstrap/dist/js/bootstrap.min.js')
+
+    block scripts
