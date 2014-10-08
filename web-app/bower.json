@@ -1,8 +1,0 @@
-{
-  "name": "midja-web-app",
-  "dependencies": {
-        "bootstrap":"~3.1.1",
-        "dcjs": "1.6.0"
-  },
-  "private": true
-}
